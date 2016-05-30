@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'wykop/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "wykop"
+  spec.name          = "ruby-wykop"
   spec.version       = Wykop::VERSION
-  spec.authors       = ["vvixom"]
-  spec.email         = ["vvixom@gmail.com"]
+  spec.authors       = ["rlesniak"]
+  spec.email         = ["rafallesniak24@gmail.com"]
 
   spec.summary       = "Wykop.pl API client library"
   spec.description   = "Simple Wykop.pl API"
